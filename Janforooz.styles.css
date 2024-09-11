@@ -63,7 +63,7 @@ table {
     --light-gray: #eaeaea;
     --dark-gray: #333;
     color-scheme: dark;
-    --text-color: #fff;
+    --color: #fff;
     
 }
 
@@ -92,7 +92,7 @@ table {
 
       :root {
         --background-color: darkgray;
-        --text-color: white;
+        --color: white;
       }
 
 }
