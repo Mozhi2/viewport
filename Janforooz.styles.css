@@ -81,7 +81,18 @@ table {
 
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
+
 @media (prefers-color-scheme: dark) {
+    
+
+    body {
+        color: var(--white);
+        background-color: var(--dark-gray);
+      }
+
+}
+
+/*@media (prefers-color-scheme: dark) {
     
 
     body {
@@ -90,6 +101,7 @@ table {
       }
 
 }
+      */
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
