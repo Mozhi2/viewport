@@ -64,6 +64,7 @@ table {
     --dark-gray: #222;
     --background-color: #222;
      color-scheme: dark;
+     color: #fff;
    
     
 }
@@ -88,12 +89,6 @@ table {
         color: var(--white);
         background-color: var(--dark-gray);
       }
-
-      #one {
-        color: white;
-      }
-
-
 
 }
 
