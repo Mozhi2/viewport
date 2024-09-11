@@ -62,8 +62,8 @@ table {
     --white: #fff;
     --light-gray: #eaeaea;
     --dark-gray: #333;
-     color-scheme: dark;
-   
+    color-scheme: dark;
+    --text-color: #fff;
     
 }
 
@@ -87,6 +87,12 @@ table {
     body {
         color: var(--white);
         background-color: var(--dark-gray);
+       
+      }
+
+      :root {
+        --background-color: darkgray;
+        --text-color: white;
       }
 
 }
