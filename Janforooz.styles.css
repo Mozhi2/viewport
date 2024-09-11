@@ -62,8 +62,6 @@ table {
     --white: #fff;
     --light-gray: #eaeaea;
     --dark-gray: #333;
-    --color: #fff;
-    --background-color: #333;
      color-scheme: dark;
    
     
@@ -81,6 +79,7 @@ table {
 
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
+
 
 @media (prefers-color-scheme: dark) {
     
