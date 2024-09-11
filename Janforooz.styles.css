@@ -62,13 +62,10 @@ table {
     --white: #fff;
     --light-gray: #eaeaea;
     --dark-gray: #222;
-    --color: rgb(250, 250, 250);
-    --background-color: rgb(5, 5, 5);
-    color-scheme: normal;
-    color-scheme: light;
-    color-scheme: dark;
-    color-scheme: light dark;
-    color-scheme: only light;
+    --color: white;
+    --background-color: black;
+     color-scheme: dark;
+   
     
 }
 
@@ -76,11 +73,6 @@ table {
 *{
     box-sizing: border-box;
     line-height: 1.35;
-    color-scheme: inherit;
-    color-scheme: initial;
-    color-scheme: revert;
-    color-scheme: revert-layer;
-    color-scheme: unset;
 }
 
 
@@ -93,9 +85,9 @@ table {
     
 
     body {
-        background-color: rgb(5, 5, 5);
-        color: rgb(250, 250, 250);
-    }
+        color: var(--white);
+        background-color: var(--black);
+      }
 
 }
 
