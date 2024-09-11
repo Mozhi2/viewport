@@ -62,8 +62,11 @@ table {
     --white: #fff;
     --light-gray: #eaeaea;
     --dark-gray: #222;
+    --background-color: #222;
      color-scheme: dark;
+     color: #fff;
    
+    
 }
 
 /* ---------- GLOBAL STYLES ---------- */
@@ -89,8 +92,16 @@ table {
 
 }
 
+/*@media (prefers-color-scheme: dark) {
+    
 
+    body {
+        color: var(--white);
+        background-color: var(--black);
+      }
 
+}
+      */
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
