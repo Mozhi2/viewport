@@ -86,22 +86,13 @@ table {
     
 
     body {
-        color: var(--white);
+        color: var(--color);
         background-color: var(--dark-gray);
       }
 
 }
 
-/*@media (prefers-color-scheme: dark) {
-    
 
-    body {
-        color: var(--white);
-        background-color: var(--black);
-      }
-
-}
-      */
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
