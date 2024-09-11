@@ -89,8 +89,8 @@ table {
         background-color: var(--dark-gray);
       }
 
-      p{
-        color:var(--white);
+      #one {
+        color: white;
       }
 
 
