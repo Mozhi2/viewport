@@ -62,10 +62,8 @@ table {
     --white: #fff;
     --light-gray: #eaeaea;
     --dark-gray: #222;
- 
-  
+     color-scheme: dark;
    
-    
 }
 
 /* ---------- GLOBAL STYLES ---------- */
@@ -81,7 +79,7 @@ table {
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light-dark) {
     
 
     body {
@@ -91,16 +89,8 @@ table {
 
 }
 
-/*@media (prefers-color-scheme: dark) {
-    
 
-    body {
-        color: var(--white);
-        background-color: var(--black);
-      }
 
-}
-      */
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
