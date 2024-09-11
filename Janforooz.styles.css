@@ -92,16 +92,7 @@ table {
 
 }
 
-/*@media (prefers-color-scheme: dark) {
-    
-
-    body {
-        color: var(--white);
-        background-color: var(--black);
-      }
-
-}
-      */
+      
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
