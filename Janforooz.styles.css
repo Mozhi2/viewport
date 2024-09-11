@@ -85,8 +85,12 @@ table {
     
 
     body {
-        
+        color: var(--white);
         background-color: var(--dark-gray);
+      }
+
+      p{
+        color:var(--white);
       }
 
 
