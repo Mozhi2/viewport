@@ -85,9 +85,9 @@ table {
     
 
     body {
+        
         display: grid;
-        grid-auto-columns: 75px;
-        grid-auto-flow: column;
+        grid-template-columns: repeat(3, 1fr);
         background-color: var(--dark-gray);
        
       }
