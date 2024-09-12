@@ -91,13 +91,7 @@ table {
        
       }
 
-      main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        margin: 1em auto;
-      }
-
-  
+      
 }
 
       
@@ -208,6 +202,12 @@ header, footer{
 
 main{
     max-width: 1795px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 1em auto;
+    
+
+  
 }
 
 /* ----- CONTAINERS ----- */
