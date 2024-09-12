@@ -96,11 +96,12 @@ table {
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
 
-body{
+/*body{
     display: grid;
     grid-template-rows: 50px;
     grid-auto-rows: 100px;  
 }
+    */
 
 
 /* ----- HEADINGS ----- */
@@ -217,11 +218,11 @@ section{
     padding: 1em;
 }
 
-/*body{
+body{
     display:grid;
     grid-template-columns: 1fr;
 }
-    */
+    
 
 /* ---------- EXTRA SMALL SCREEN STYLES ---------- */
 
@@ -374,11 +375,11 @@ section{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-     /*{
+     img{
         width: 300px;
         max-width: 300px;
     } 
-        */
+        
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
@@ -387,8 +388,8 @@ section{
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
 @media only screen and (min-width: 1200px){
 
-    
     /*
+    
      header, footer{
         background-color: var(--orange);
         padding-left: 5%;
