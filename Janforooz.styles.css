@@ -84,26 +84,23 @@ table {
 @media (prefers-color-scheme: dark) {
     
 
-    main, header, footer, body {
-        
-        display:grid;
-        grid-template-columns: 1fr;
+     body {
+        color: var(--white);  
         background-color: var(--dark-gray);
     }
-    img {
-        max-width: 100%; /* Make images responsive */
-        height: auto;
-      }
-
-    
-
-      
+        
 }
 
       
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
+
+body{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-auto-rows: 100px;  
+}
 
 
 /* ----- HEADINGS ----- */
