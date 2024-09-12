@@ -86,7 +86,8 @@ table {
 
     body {
         
-        
+        display:grid;
+        grid-template-columns: 1fr;
         background-color: var(--dark-gray);
        
       }
@@ -212,10 +213,11 @@ section{
     padding: 1em;
 }
 
-body{
+/*body{
     display:grid;
     grid-template-columns: 1fr;
 }
+    */
 
 /* ---------- EXTRA SMALL SCREEN STYLES ---------- */
 
