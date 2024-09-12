@@ -90,6 +90,10 @@ table {
         grid-template-columns: 1fr;
         background-color: var(--dark-gray);
     }
+    img {
+        max-width: 100%; /* Make images responsive */
+        height: auto;
+      }
 
     
 
