@@ -84,13 +84,14 @@ table {
 @media (prefers-color-scheme: dark) {
     
 
-    body {
+    main, header, footer, body {
         
         display:grid;
         grid-template-columns: 1fr;
         background-color: var(--dark-gray);
-       
-      }
+    }
+
+    
 
       
 }
