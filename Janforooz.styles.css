@@ -205,8 +205,10 @@ header, footer{
 
 main{
     max-width: 1795px;
+    /*
     display: flex;
     flex-wrap: wrap;
+    */
 }
 
 /* ----- CONTAINERS ----- */
